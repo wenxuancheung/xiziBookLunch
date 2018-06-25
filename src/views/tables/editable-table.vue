@@ -56,6 +56,7 @@
                         <FormItem label="选择图标">
                             <div class="admin-upload-list" v-for="(item,index) in imgList" :key="item.path">
                                 <div @click="handleView(item.path,item.id,index)" :class="{adminCover:index==showImg}" >
+                                    <img src="../../images/choose.png" class="choose" v-if="index==showImg" style="width:28px;height:28px"/>
                                     <img :src="item.path" >
                                 </div>
                             </div>
