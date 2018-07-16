@@ -88,7 +88,7 @@ module.exports = {
             //匹配代理的url
             '/control': {
             // 目标服务器地址
-              target: 'http://oa-plus.xizi.com',
+              target: 'http://oa-plus.dingding.com',
               //路径重写
               changeOrigin: true
             }
